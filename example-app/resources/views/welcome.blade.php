@@ -29,7 +29,8 @@
            display:flex;
            flex-direction: column;
          margin:5px;
-
+         filter: saturate(3);
+       
        }
         body{
                 font-family: 'Nunito', sans-serif;
@@ -39,11 +40,11 @@
             footer{
                 background-color: #DC493A;
                 position: fixed;
-            padding: 10px 10px 0px 10px;
+            padding: 5px 5px 5px 5px;
             bottom: 0;
             width: 100%;
             /* Height of the footer*/ 
-            height: 30px;
+            height: 20px;
             color:white;
             text-align: center;
             font-size: 15px;
@@ -69,7 +70,29 @@
                 margin-top: 5%;
                 margin-bottom: 10%;
             }
-    
+    .MyProf{
+      margin-top:2%;
+        overflow: hidden;
+        border-radius: 50%; 
+        border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+
+    position: relative;
+ 
+  background: white;
+ 
+  color: white;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+    }
+.MyProf:hover {
+  border-radius: 20%;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+}
+    }
         </style>
     </head>
     <body class="antialiased">
@@ -82,7 +105,7 @@
         </div>
 
         <div class="content">
-
+            <img class="MyProf" src="{{asset("/mojezdj.jpg")}}" width="500" height="500">
             <div class="whoAmI">
                 <h2 >{{$AboutMe}}</h2>
             </div>
