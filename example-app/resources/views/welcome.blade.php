@@ -112,7 +112,7 @@
             <div class="myGames" >
                 <iframe frameborder="0" src="https://itch.io/embed/1302784?border_width=0&amp;bg_color=ECE8EF&amp;fg_color=000000&amp;border_color=ffffff" width="550" height="165"><a href="https://trezzel-studios.itch.io/fishingrodfever">Fishing rod Fever by TREZZEL Studios</a></iframe>
             </div>
-        <h3 class="GitActivity">Aktywność GitHub</h3> <img  src="{{ asset('/ghmark.png') }}" alt="GitHubLogo"></a>
+        <h3 class="GitActivity">Aktywność GitHub</h3> <img  src="{{ asset('/ghmark.png') }}" alt="GitHubLogo" style="margin-bottom: 10px;"></a>
             <!-- Prepare a container for your calendar. -->
             <script
             src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
