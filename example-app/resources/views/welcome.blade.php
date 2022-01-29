@@ -105,9 +105,9 @@
         </div>
 
         <div class="content">
-            <img class="MyProf" src="{{asset("/mojezdj.jpg")}}" width="500" height="500">
+            <img class="MyProf" src="{{asset("/mojezdj.jpg")}}" width="35%" height="35%">
             <div class="whoAmI">
-                <h2 >{{$AboutMe}}</h2>
+                <h2 >{{$data['AMFirst']}}<font color=#4392F1> {{$data['AMMiddle']}}</font>{{$data['AMSecond']}}</h2>
             </div>
             <div class="myGames" >
                 <iframe frameborder="0" src="https://itch.io/embed/1302784?border_width=0&amp;bg_color=ECE8EF&amp;fg_color=000000&amp;border_color=ffffff" width="550" height="165"><a href="https://trezzel-studios.itch.io/fishingrodfever">Fishing rod Fever by TREZZEL Studios</a></iframe>
